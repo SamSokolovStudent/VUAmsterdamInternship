@@ -89,8 +89,16 @@ We will use tools like spaCy and Elasticsearch for this.
 ## 4. Timeline
 *An overview of the key milestones and deadlines.*
 
-- **Week 1-2**: *Activities and goals for this period.*
-- **Week 3-4**: *Delving deeper into the subject by orienting and reading more relevant literature.*
+**Start of the Internship:** In the first four weeks, the main task is to learn about the new technology that we'll be using for the project. This includes understanding different models, programming frameworks, online services (APIs), and software libraries. The goal is to find out which ones are reliable and suitable for our work, especially since technology in the field of artificial intelligence changes quickly. This initial learning phase will help us make a detailed plan for the rest of the internship.
+
+**October:** By October, the plan for the project should be complete. This means knowing how we'll gather data, what we're going to do with that data, and what the final product will look like. After this planning stage, we'll start building a database and collecting the information we need for the project. At this point, we'll also start figuring out how to clean and sort the data in a useful way.
+
+**November:** November is when we'll start building the actual application. The first step is to set up a database that includes all the cleaned and sorted data. Then, we'll work on adding a feature to the application that allows it to search through this data in a meaningful way (this is known as a semantic search engine). After this, we can start looking at the full set of data to plan our statistical analysis. Understanding the various statistical methods that could be used will take some time, as we want to select the most suitable ones for our project. However, once understood, implementing these methods into the application should be relatively straightforward. This part might be challenging due to the learning curve involved with the statistical methods, but it should be doable within the month.
+
+**December:** The aim for December is to finish the application. It should be able to search through academic papers in a way that helps people perform systematic reviews, using both graphs and artificial intelligence to assist the process. Once the application is working, we'll start looking at the results it produces and use those in a final report about the project and the internship. The goal is to complete this report before the end of December, so there's time to make any final adjustments before the holidays.
+
+**End of the Internship:** At the end of the internship, there should be a working application and a complete report about the project. The report will be reviewed and any necessary improvements will be made. Once that is done, it will be submitted for final evaluation. With the project finished and the report handed in, the internship goals will have been met, offering valuable learning and experience in the field of AI.
+
 
 ## 5. Resources
 *The tools, resources, or software essential for the project.*
