@@ -5,7 +5,7 @@
 In science, (systematic) reviews are often conducted to summarize the current state of affairs within a specific topic. 
 This often includes an overview of results, where data from different sources can even be combined through meta-analysis.
 
-This project is being carried out at the Department of Biological Psychology at VU Amsterdam, which manages and maintains the Dutch Twin Register (NTR). 
+This project is being carried out at the Department of Biological Psychology at VU Amsterdam, which manages and maintains the Netherlands Twin Register (NTR). 
 A key objective of the NTR is to better understand the biology of being or becoming a twin (known as "twinning"). 
 Hence, this is the scientific subject of this project.
 
