@@ -11,17 +11,22 @@ Hence, this is the scientific subject of this project.
 
 To support the execution of a (systematic) literature review on twinning, generative artificial intelligence (AI) will be used. 
 The project focuses on utilizing generative AI in scientific literature, specifically applying various AI models 
-for meta-analyses and shaping new research through the PICO structure. 
+for meta-analyses and shaping new research through the PICO structure.
+> **note**
+> Explain abbreviation PICO (Patient/Population/Problem, Invervention, Comparison/Control, Outcome measures)
+
 It will employ Large Language Models (LLMs) and statistical models, as well as methods to recommend relevant graphs, models, and other papers for further research. 
 This will largely be driven by a semantic search engine using a hot vector database to find the most relevant results from abstracts and papers.
 
-The relevance and importance of the project lie in delivering a product that can make a genuine difference in the Twinning project at VU Amsterdam and possibly broader general science.
+The relevance and importance of the project lie in delivering a product that can make a genuine contribution to the Twinning project at VU Amsterdam and possibly broader general science.
 
-The final application should also provide an overview of the entire corpus of articles that have undergone multiple filtration steps to ensure a higher quality of articles on the subject of twinning.
+The final application should also provide an overview of the entire corpus of articles that have undergone multiple filtering steps to ensure a higher quality selection of articles on the subject of twinning.
 
 
 #### 1.1. Background
 *A description of the background and context of the project.*
+> **note**
+> Maybe Nikki can help out for this subsection?
 
 ##### 1.1.1 Twinning
 Monozygotic *vs.* dizygotic twins and how they occur in humans, but also in other (mammalian) animals.
@@ -31,19 +36,21 @@ Semantic search engines, large language models, classification.
 We find ourselves in an era often described as 'the AI revolution.' 
 Every week, revolutionary new papers are released featuring AI models, algorithms, and smart applications of both to accomplish tasks that previously required a high degree of complexity or a large IT department. 
 This is all changing. New techniques based on transformer models and embeddings, like the infamous Large Language Models such as GPT-4 or LLaMa2, are altering how we think about gathering and searching for information.
+> **Note**
+> I don't know if this should be added here, but maybe finish off with a sentence like "Although this is a highly dynamic field, we choose..."
 
 #### 1.2. Objectives
 *What the project aims to achieve.*
 
-The project aims to make it easier to conduct scientific research like PICO's and meta-analyses, but also to do it at a higher quality standard. 
+The project aims to make it easier to conduct scientific research such as PICO's and meta-analyses, but also to do it at a higher quality standard. 
 By simplifying the process, there is more time and space to gain deeper insights into specific topics.
 
 ## 2. Problem Statement
 *The challenge or problem that will be addressed during the internship.*
 
 The goal is to develop an application to assist the user (the scientist) in conducting a review. 
-The data must be as clean as possible to optimize classification. 
-We want to implement the software as abstractly as possible so that it can potentially handle other topics as well.
+The data should be as clean as possible to optimize classification. 
+We aim to implement the software as abstract as possible so that it can potentially handle other topics as well.
 
 #### 2.1. Main Question
 *The central question or challenge of this project.*
@@ -89,15 +96,15 @@ We will use tools like spaCy and Elasticsearch for this.
 ## 4. Timeline
 *An overview of the key milestones and deadlines.*
 
-**Start of the Internship:** In the first four weeks, the main task is to learn about the new technology that we'll be using for the project. This includes understanding different models, programming frameworks, online services (APIs), and software libraries. The goal is to find out which ones are reliable and suitable for our work, especially since technology in the field of artificial intelligence changes quickly. This initial learning phase will help us make a detailed plan for the rest of the internship.
+**Start of the Internship (September 2023):** In the first four weeks, the main task is to learn about the new technology that we'll be using for the project. This includes understanding different models, programming frameworks, online services (APIs), and software libraries. The goal is to find out which ones are reliable and suitable for our work, especially since technology in the field of artificial intelligence changes quickly. This initial learning phase will help us make a detailed plan for the rest of the internship.
 
-**October:** By October, the plan for the project should be complete. This means knowing how we'll gather data, what we're going to do with that data, and what the final product will look like. After this planning stage, we'll start building a database and collecting the information we need for the project. At this point, we'll also start figuring out how to clean and sort the data in a useful way.
+**October 2023:** By October, the plan for the project should be complete. This means knowing how we'll gather data, what we're going to do with that data, and what the final product will look like. After this planning stage, we'll start building a database and collecting the information we need for the project. At this point, we'll also start figuring out how to clean and sort the data in a useful way.
 
-**November:** November is when we'll start building the actual application. The first step is to set up a database that includes all the cleaned and sorted data. Then, we'll work on adding a feature to the application that allows it to search through this data in a meaningful way (this is known as a semantic search engine). After this, we can start looking at the full set of data to plan our statistical analysis. Understanding the various statistical methods that could be used will take some time, as we want to select the most suitable ones for our project. However, once understood, implementing these methods into the application should be relatively straightforward. This part might be challenging due to the learning curve involved with the statistical methods, but it should be doable within the month.
+**November 2023:** November is when we'll start building the actual application. The first step is to set up a database that includes all the cleaned and sorted data. Then, we'll work on adding a feature to the application that allows it to search through this data in a meaningful way (this is known as a semantic search engine). After this, we can start looking at the full set of data to plan our statistical analysis. Understanding the various statistical methods that could be used will take some time, as we want to select the most suitable ones for our project. However, once understood, implementing these methods into the application should be relatively straightforward. This part might be challenging due to the learning curve involved with the statistical methods, but it should be doable within the month.
 
-**December:** The aim for December is to finish the application. It should be able to search through academic papers in a way that helps people perform systematic reviews, using both graphs and artificial intelligence to assist the process. Once the application is working, we'll start looking at the results it produces and use those in a final report about the project and the internship. The goal is to complete this report before the end of December, so there's time to make any final adjustments before the holidays.
+**December 2023:** The aim for December is to finish the application. It should be able to search through academic papers in a way that helps people perform systematic reviews, using both graphs and artificial intelligence to assist the process. Once the application is working, we'll start looking at the results it produces and use those in a final report about the project and the internship. The goal is to complete this report before the end of December, so there's time to make any final adjustments before the holidays.
 
-**End of the Internship:** At the end of the internship, there should be a working application and a complete report about the project. The report will be reviewed and any necessary improvements will be made. Once that is done, it will be submitted for final evaluation. With the project finished and the report handed in, the internship goals will have been met, offering valuable learning and experience in the field of AI.
+**End of the Internship (January 2024):** At the end of the internship, there should be a working application and a complete report about the project. The report will be reviewed and any necessary improvements will be made. Once that is done, it will be submitted for final evaluation. With the project finished and the report handed in, the internship goals will have been met, offering valuable learning and experience in the field of AI.
 
 
 ## 5. Resources
