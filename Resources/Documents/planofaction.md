@@ -106,6 +106,7 @@ We will use tools like spaCy and Elasticsearch for this.
 
 **End of the Internship (January 2024):** At the end of the internship, there should be a working application and a complete report about the project. The report will be reviewed and any necessary improvements will be made. Once that is done, it will be submitted for final evaluation. With the project finished and the report handed in, the internship goals will have been met, offering valuable learning and experience in the field of AI.
 
+![[Untitled Diagram.drawio.png]]
 
 ## 5. Resources
 *The tools, resources, or software essential for the project.*
