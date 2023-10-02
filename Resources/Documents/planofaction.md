@@ -14,6 +14,7 @@ The project focuses on utilizing generative AI in scientific literature, specifi
 for meta-analyses and shaping new research through the PICO structure.
 > **note**
 > Explain abbreviation PICO (Patient/Population/Problem, Invervention, Comparison/Control, Outcome measures)
+> add link to NTR
 
 It will employ Large Language Models (LLMs) and statistical models, as well as methods to recommend relevant graphs, models, and other papers for further research. 
 This will largely be driven by a semantic search engine using a hot vector database to find the most relevant results from abstracts and papers.
@@ -106,7 +107,7 @@ We will use tools like spaCy and Elasticsearch for this.
 
 **End of the Internship (January 2024):** At the end of the internship, there should be a working application and a complete report about the project. The report will be reviewed and any necessary improvements will be made. Once that is done, it will be submitted for final evaluation. With the project finished and the report handed in, the internship goals will have been met, offering valuable learning and experience in the field of AI.
 
-![[Untitled Diagram.drawio.png]]
+![Workflow Diagram](https://github.com/SamSokolovStudent/VUAmsterdamInternship/blob/main/Resources/Documents/workflow_diagram.png?raw=true)
 
 ## 5. Resources
 *The tools, resources, or software essential for the project.*
