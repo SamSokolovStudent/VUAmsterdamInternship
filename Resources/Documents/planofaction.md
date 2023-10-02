@@ -72,6 +72,8 @@ We want to use AI to assist us with scientific research, and our approach is cru
 
 We'll use large language models (LLMs) and some statistics to make scientific texts easier to understand and analyze. We want to be sure that what the AI tells us is accurate, so we'll cross-reference the results with existing literature and consult experts.
 
+The workflow of the tool is summarized in the Workflow Diagram below.
+
 #### 3.1. Research Design
 *The type of research that will be conducted, such as qualitative, quantitative, experimental, etc.*
 
@@ -80,10 +82,13 @@ The research is a mix of qualitative, quantitative, and experimental research.
 #### 3.2. Data Collection
 *The methods and sources for collecting the required data or information.*
 
-APIs from NCBI, PubMed, and arXiv will mainly be used to collect a large assortment of papers and abstracts.
+APIs from NCBI, PubMed, and arXiv will mainly be used to collect a large assortment of papers and abstracts. Theese resources will be queried by terms related to twinning. The result will be further cleaned by using ASReview.
 
-#### 3.3. Analysis
+#### 3.3. Database Setup and Analysis
 *The approach for analyzing the collected data, such as statistical methods or software tools.*
+
+> **note**
+>  Here a subsubsection for generating the DB
 
 **Modeling and Evaluation**
 We will have to look at how different AI and statistical models handle training, fine-tuning, and evaluation.
@@ -107,7 +112,7 @@ We will use tools like spaCy and Elasticsearch for this.
 
 **End of the Internship (January 2024):** At the end of the internship, there should be a working application and a complete report about the project. The report will be reviewed and any necessary improvements will be made. Once that is done, it will be submitted for final evaluation. With the project finished and the report handed in, the internship goals will have been met, offering valuable learning and experience in the field of AI.
 
-![Workflow Diagram](https://github.com/SamSokolovStudent/VUAmsterdamInternship/blob/main/Resources/Documents/workflow_diagram.png?raw=true)
+![Workflow Diagram](https://github.com/SamSokolovStudent/VUAmsterdamInternship/blob/main/Resources/Documents/workflow_diagram.png?raw=true){fig:Workflow}
 
 ## 5. Resources
 *The tools, resources, or software essential for the project.*
