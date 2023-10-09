@@ -6,27 +6,33 @@ In the realm of scientific inquiry, systematic reviews serve as invaluable tools
 
 This project is being carried out at the Department of Biological Psychology at VU Amsterdam, responsible for the maintaining of the Netherlands Twin Register (NTR). One of the primary objectives of the NTR is to clarify the biological underpinnings of twinning—both its occurrence and implications. Consequently, this constitutes the core subject matter of the current project.
 
-To support the process of performing a systematic literature review on twinning, we'll leverage generative artificial intelligence (AI). Specifically, the project aims to harness various AI models for tasks such as meta-analyses and guiding future research endeavors in accordance with the PICO framework, which stands for Patient/Population/Problem, Intervention, Comparison/Control, and Outcome measures.
-
 For further information on the NTR, you can visit their official [website](https://tweelingenregister.vu.nl/).
+
+To support the process of performing a systematic literature review on twinning, we'll leverage generative artificial intelligence (AI). Specifically, the project aims to harness various AI models for tasks such as meta-analyses and guiding future research endeavors in accordance with the PICO framework, which stands for Patient/Population/Problem, Intervention, Comparison/Control, and Outcome measures.
 
 The project will harness the capabilities of Large Language Models (LLMs) and will largely be driven by a semantic search engine using a vector database to find the most relevant results from abstracts and papers. This entire operation is controlled by a semantic search engine, which utilizes a vector database to sift through abstracts and papers, pinpointing the most relevant results. In addition, statistical methods are applied across the entire database to uncover anomalies and discern patterns, providing a deeper layer of analytical insight.
 
-The significance of this endeavour lies in its potential to effect a substantive contribution to the study of fertility pertaining to twinning at VU Amsterdam, and perhaps even to extend its impact to the wider scientific community.
+The value of this endeavour lies in its potential to effect a substantive contribution to the study of fertility pertaining to twinning at VU Amsterdam, and perhaps even to extend its impact to the wider scientific community.
 
 Ultimately, the final application aims to present a meticulously curated corpus of articles. These would have undergone rigorous filtering processes to yield a selection of high-quality articles focused exclusively on the subject of twinning.
 
 #### 1.1. Background
 *A description of the background and context of the project.*
 
-**Questions for Nikki:**
-- What specific gaps in the current scientific understanding does this project aim to address?
-- Are there any previous studies or methodologies that this project is building upon?
-- How is the relation to the Department of Biological Psychology and the NTR relevant to Twinning and Fertility?
-- What are things that are commonly associated with Twinning but are not relevant to Fertility, therefore acting as good 'negative' filters in further filtering of the articles.
 ##### 1.1.1 Twinning
-The subject of twinning holds a particular allure, often steeped in both biological intricacy and cultural fascination. While the basics—monozygotic and dizygotic twinning—are well understood, the role of fertility factors adds an extra layer of mystique. These factors, ranging from maternal age to hormonal fluctuations, can influence the likelihood of twinning occurring. The greater project that encompasses this project, seeks to delve into these fertility factors to identify which are most influential in the manifestation of twinning, not just in humans but also across different mammalian species.
+The subject of twinning holds a particular allure, often steeped in both biological intricacy and cultural fascination. While the basics like monozygotic and dizygotic twinning are well-understood, the role of fertility factors adds an extra layer of complexity. These factors, which include aspects like maternal age and hormonal fluctuations, influence the likelihood of twinning. Our larger project seeks to dig deeper into these fertility factors to identify which are most influential in twinning occurrences, not just in humans but also across different mammalian species.
 
+Existing research primarily explores either twinning or fertility within specific species, but rarely both across species. A notable exception is a study focused on aggression, which may serve as an inspiration for this project. The end goal is to discover papers where experimental research overlaps across species but hasn't been individually examined for such intersections.
+
+Specific attention is directed towards cattle for two main reasons: first, extensive research has been conducted in the livestock industry with a profit motive for multiple births; second, a significant portion of a genetic region known to influence twinning (and possibly fertility) is shared between cattle and humans.
+
+The correlation between fertility and the likelihood of multiple births remains ambiguous. While twinning has been traditionally seen as a form of 'super-fertility,' some studies suggest that it is possible to experience reduced fertility while still having higher chances of multiple births. For instance, the release of the FSH hormone, commonly observed when women quit smoking, could be a factor in multiple ovulations.
+
+Studies that are commonly associated with twinning but not directly relevant to fertility will be treated as 'negative filters' in our search for relevant literature. For example, twins are often used in hereditary studies based on the ACE model and broad-sense heritability. These types of studies may appear in the dataset but are not directly pertinent to our investigation.
+
+Also, epigenetic studies often target identical twins exhibiting discordant traits to explore the impact of a single factor on epigenetic expression. However, our research puts the emphasis on dizygotic twins, making such studies less relevant for our purposes.
+
+By focusing on these specific elements and filtering out the non-relevant ones, the project aims to address gaps in current scientific understanding.
 ##### 1.1.2 Generative AI
 As we traverse what's commonly termed 'the AI revolution,' the proliferation of ground-breaking papers is ceaseless, each contributing revolutionary models and algorithms. Particularly noteworthy are advancements rooted in transformer architectures and embeddings, such as forefront Large Language Models like GPT-4 and LLaMa2. These are fundamentally altering our methodology for information retrieval and interpretation. Given the volatile nature of this field, the project remains agile, adapting to the latest in scientific discovery while adhering to current best practices.
 #### 1.2. Objectives
